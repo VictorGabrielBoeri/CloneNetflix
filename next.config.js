@@ -1,18 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Configuração para deploy estático no Netlify
   output: 'export',
   trailingSlash: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
+    domains: ['image.tmdb.org', 'via.placeholder.com']
   },
-  // Configurações existentes
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production'
+  },
   experimental: {
-    appDir: true
-  },
-  env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
-    NEXT_PUBLIC_TMDB_API_KEY: process.env.NEXT_PUBLIC_TMDB_API_KEY,
+    optimizeCss: true
   }
 }
 
