@@ -1,0 +1,32 @@
+{
+  "popular": [
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "backdrop": "assets/images/stranger-things.jpg",
+      "poster": "assets/images/stranger-things-poster.jpg",
+      "year": "2016",
+      "rating": "16+",
+      "duration": "4 Temporadas",
+      "description": "Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.",
+      "match": "97% relevante",
+      "genres": ["Sobrenatural", "Terror", "Drama"],
+      "cast": ["Winona Ryder", "David Harbour", "Millie Bobby Brown", "Finn Wolfhard"],
+      "trailerUrl": "https://www.youtube.com/embed/b9EkMc79ZSU"
+    },
+    {
+      "id": 2,
+      "title": "The Witcher",
+      "backdrop": "assets/images/witcher.jpg",
+      "poster": "assets/images/witcher-poster.jpg",
+      "year": "2019",
+      "rating": "18+",
+      "duration": "2 Temporadas",
+      "description": "O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.",
+      "match": "95% relevante",
+      "genres": ["Fantasia", "Ação", "Drama"],
+      "cast": ["Henry Cavill", "Anya Chalotra", "Freya Allan"],
+      "trailerUrl": "https://www.youtube.com/embed/ndl1W4ltcmg"
+    }
+  ]
+}

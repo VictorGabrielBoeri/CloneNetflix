@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Séries - Netflix Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    
+    <div class="page-container">
+        <h1 class="page-title">Séries</h1>
+        
+        <div class="category-section">
+            <h2 class="section-title">Séries Populares</h2>
+            <div class="movie-grid" id="popular-series"></div>
+        </div>
+        
+        <div class="category-section">
+            <h2 class="section-title">Séries de Ação</h2>
+            <div class="movie-grid" id="action-series"></div>
+        </div>
+        
+        <div class="category-section">
+            <h2 class="section-title">Séries de Drama</h2>
+            <div class="movie-grid" id="drama-series"></div>
+        </div>
+    </div>
+
+    <div id="movie-modal-container"></div>
+    <div id="profile-modal-container"></div>
+
+    <script src="js/api.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/series.js"></script>
+</body>
+</html>

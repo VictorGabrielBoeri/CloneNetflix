@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista - Netflix Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    
+    <div class="page-container">
+        <h1 class="page-title">Minha Lista</h1>
+        
+        <div class="my-list-container">
+            <div class="movie-grid" id="my-list-items"></div>
+            <div class="empty-list" id="empty-list-message">
+                <i class="fas fa-film"></i>
+                <p>Sua lista está vazia. Adicione filmes e séries clicando no botão + nos detalhes do título.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="movie-modal-container"></div>
+    <div id="profile-modal-container"></div>
+
+    <script src="js/api.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/minha-lista.js"></script>
+</body>
+</html>

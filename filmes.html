@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes - Netflix Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    
+    <div class="page-container">
+        <h1 class="page-title">Filmes</h1>
+        
+        <div class="category-section">
+            <h2 class="section-title">Filmes Populares</h2>
+            <div class="movie-grid" id="popular-movies"></div>
+        </div>
+        
+        <div class="category-section">
+            <h2 class="section-title">Filmes de Ação</h2>
+            <div class="movie-grid" id="action-movies"></div>
+        </div>
+        
+        <div class="category-section">
+            <h2 class="section-title">Lançamentos</h2>
+            <div class="movie-grid" id="new-releases"></div>
+        </div>
+    </div>
+
+    <div id="movie-modal-container"></div>
+    <div id="profile-modal-container"></div>
+
+    <script src="js/api.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filmes.js"></script>
+</body>
+</html>
